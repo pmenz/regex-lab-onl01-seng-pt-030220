@@ -8,7 +8,7 @@ end
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-text 
+text.scan[un] 
 if word.last(2)=="un"||"ing" then 
 end
 
